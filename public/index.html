@@ -1,0 +1,105 @@
+<html>
+<head>
+
+<style>
+	@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+	
+	:root {
+		font-size: 16px;
+		font-family: "Open Sans", Helvetica;
+		--dominant-color: #b861ff;
+		--accent-color-1: #61ffb7;
+		--accent-color-2: #000000;
+		--accent-color-3: #000000;
+		--accent-color-4: #000000;
+		--standard-color: #FFFFFF;
+	}
+	
+	body {
+		margin: 0;
+		background-color: #b861ff;
+	}
+	
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+	
+	.nav-bar {
+		display: flex;
+		color: white;
+		padding: 2rem 5rem;
+		justify-content: space-between;
+		font-weight: 600;
+		align-items: center;
+		gap: 3rem;
+	}
+	
+	.nav-bar > .nav-item-container {
+		display: flex;
+		gap: 3rem;
+		flex-grow: 1;
+		flex-basis: 0;
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+	}
+	
+	.nav-bar > .nav-item-container > .nav-item {
+		transition: 0.5s ease;
+		margin: 0;
+	}
+	
+	.nav-bar > .nav-item-container > .nav-item:hover {
+		color: #61ffb7;
+	}
+	
+	.nav-bar > .nav-logo {
+		font-size: 1.5rem;
+	
+	}
+	
+	.header {
+		background-color: black;
+		height: 10rem;
+		width: 100%;
+	}
+</style>
+</head>
+<body>
+<!--Nav Bar-->
+<nav id="nav" class="nav-bar">
+	<ul class="nav-item-container">
+		<li class="nav-item">
+			<a href="#">ABOUT</a>
+		</li>
+		<li class="nav-item">
+			<a href="#">SKILLS</a>
+		<li class="nav-item">
+			<a href="#">WORKS</a>
+		</li>
+	</ul>
+	<a class="nav-logo" href="#">
+		<span>SORCERIV</span>
+	</a>
+	<ul class="nav-item-container" style="justify-content: flex-end;">
+		<li class="nav-item">
+			<a href="#">EXPERIENCE</a>
+		</li>
+		<li class="nav-item">
+			<a href="#">CONTACT</a>
+		</li>
+		<li class="nav-item">
+			<a href="#">RESUME</a>
+		</li>
+	</ul>
+</nav>
+
+<!--Header-->
+<header class="header" id="header">
+	
+</header>
+<script>
+</script>
+</body>
+</html>
